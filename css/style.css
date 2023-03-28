@@ -1,0 +1,149 @@
+body,h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(27, 66%, 92%);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px;
+  
+}
+
+.balanco{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.balanco-total{
+    background: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.balanco-total div span{
+    color: white;
+    font-size: .8rem;
+}
+
+
+.balanco-total div h2{
+color: white;
+font-weight: bold;
+
+}
+
+.balanco-total img{
+    width: 50px;
+}
+
+.balanco-grafico{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ 
+}
+
+.balanco-grafico::after{
+    content: '';
+    width: 100%;
+    height: 1.2px;
+    background-color: rgba(212, 209, 209, 0.384);
+    position: relative;
+    top: 20px;
+}
+
+.balanco-grafico h1{
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.balanco-grafico .grafico{
+    display: flex;
+    align-self: flex-end;
+}
+
+.balanco-colunas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 150px;
+    justify-content: end;
+   
+}
+
+.grafico span{
+    align-self: center;
+    color: rgb(177, 175, 175);
+    font-size: .8rem;
+    
+}
+
+.grafico-coluna{
+    display: block;
+    background-color: hsl(10, 79%, 65%);
+    width: 30px;
+    border-radius: 5px;
+    
+}
+
+.balanco-total-mes{
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 0px 0px 10px 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.balanco-total-mes div span{
+    color: rgb(177, 175, 175);
+ font-size: .8rem;
+}
+
+.balanco-total-mes div h2{
+    font-size: 1.9rem;
+}
+
+.balanco-total-mes > span{
+    font-size: .7rem;
+    align-items: center;
+    color:rgb(177, 175, 175); 
+}
+
+.grafico-valor{
+    background-color: rgba(94, 92, 92, 0.712);
+    padding: 2px;
+    border-radius: 5px;
+    color: white !important;
+    border: solid 1px rgba(139, 137, 137, 0.377);
+    width: 30px;
+    font-size: .7rem !important;
+    display: none;
+    justify-content: center;
+ 
+}
+
+.grafico:hover .grafico-valor{
+display: flex;
+transition: 1s;
+}
+
