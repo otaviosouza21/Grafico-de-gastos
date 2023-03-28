@@ -10,4 +10,4 @@ Obrigado por visitar meu novo desafio!.
 
 Neste Projeto foi criado um grafico para controle de gastos , com dados exportadot de um arquivo JSON;
 
-Confira o [Site em tempo real]('https://otaviosouza21.github.io/Grafico-de-gastos/')
+Confira o ![Site em tempo real]('https://otaviosouza21.github.io/Grafico-de-gastos/')
